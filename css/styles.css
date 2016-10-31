@@ -1,0 +1,40 @@
+/*Overarching site layout*/
+.menu {
+    background-image: url(../img/grunge-paper.jpg);
+    background-attachment: fixed;
+    background-size: contain;
+    background-position: left;
+}
+
+.main {
+    background-color: white;
+    min-height: 100%;
+    z-index: 100;
+    -webkit-box-shadow: 0 0 30px 5px rgba(0,0,0,0.5);
+    box-shadow: 0 0 30px 5px rgba(0,0,0,0.5);
+}
+
+/*Bullet*/
+.bullets {
+    list-style-type: none;
+}
+.bullets a {
+    text-decoration: none !important;
+    color: #000000 !important;
+}
+
+.bullets .bullet {
+    background-image: url(../img/bullet.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: left;
+}
+
+.bullet .nametag {
+    position: relative;
+    font-family: 'Special Elite', cursive;
+    text-decoration: none;
+    color: #000000;
+    display: block;
+    width: 50%;
+}

@@ -17,5 +17,19 @@
 
 .card {
     width: 100%;
-    text-align: center;
+    text-align: justify;
+    min-height: 200px;
+    position: relative;
+    /*top: -200px;*/
+    background: white;
+    padding-top: 20px;
+    -webkit-box-shadow: 0 -10px 30px -20px rgba(0,0,0,0.5);
+	box-shadow: 0 -10px 30px -20px rgba(0,0,0,0.5);
+}
+
+.card h1 {
+	text-align: center;
+}
+.card h4 strong {
+	text-transform: uppercase;
 }

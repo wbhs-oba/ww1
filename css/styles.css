@@ -1,9 +1,5 @@
 /*Overarching site layout*/
 .menu {
-    background-image: url(../img/sandbags-yellow.jpg);
-    background-attachment: fixed;
-    background-size: contain;
-    background-position: left;
     width: 200px;
     min-height: 100%;
     max-width: 400px;
@@ -16,6 +12,13 @@
     left: 0px;
 }
 
+body {
+    background-image: url(../img/sandbags-yellow.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: left;
+}
+
 .main {
     /*To allow for image background*/
     position: absolute;
@@ -26,6 +29,7 @@
     -webkit-box-shadow: 0 0 30px 5px rgba(0,0,0,0.5);
     box-shadow: 0 0 30px 5px rgba(0,0,0,0.5);
     padding-left: 20px;
+    padding-right: 20px;
     width: 100%;
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;

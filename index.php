@@ -15,11 +15,15 @@
 	        <!-- Stylesheets -->
             <link rel="stylesheet" type="text/css" href="css/styles.css">
             <link rel="stylesheet" type="text/css" href="css/bio.css">
-	        <link rel="stylesheet" type="text/css" href="css/menu.css">
-	        <link rel="stylesheet" type="text/css" href="css/positions-sm.css">
+            <link rel="stylesheet" type="text/css" href="css/menu.css">
+	        <link rel="stylesheet" type="text/css" href="css/nav.css">
 	        <link rel="stylesheet" type="text/css" href="css/animate.css">
     </head>
     <body>
+        <nav>
+            <div class="menubutton glyphicon glyphicon-menu-hamburger" aria-hidden="true"></div>
+            <h1 class="title">World War 1 Memorial</h1>
+        </nav>
         <div class="flexbox-cont">
             <div class="menu hidden-xs">
                 <ul class="navitems">
@@ -113,6 +117,15 @@
             $(".bullet").click(function () {
                 $( this ).addClass("fly");
             });
+
+            $("nav .menubutton").click(function () {
+                $( this ).toggleClass("active");
+                $(".main").toggleClass("menu-hidden");
+            });
+
+            if( $(document).width() > 900 ) {
+                $(".main").toggleClass("menu-hidden");
+            }
         </script>
     </body>
 </html>

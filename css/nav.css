@@ -1,0 +1,33 @@
+nav {
+	height: 60px;
+	width: 100%;
+	background-color: white;
+	z-index: 1000;
+    position: relative;
+    overflow: hidden;
+}
+
+nav .menubutton {
+	float: left;
+	margin: 11px;
+	padding: 6px;
+	font-size: 25px;
+	cursor: pointer;
+	left: 10px;
+}
+
+nav .menubutton.active {
+	background-color: rgba(128, 128, 128, 0.15);
+	border-radius: 3px;
+}
+
+nav .title {
+	text-align: center;
+	padding-top: 0px;
+	display: block;
+	margin: 10px;
+}
+
+.menu-hidden {
+	width: calc(100% - 200px);
+}

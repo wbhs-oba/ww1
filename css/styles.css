@@ -4,14 +4,21 @@
     background-attachment: fixed;
     background-size: contain;
     background-position: left;
-    width: 300px;
+    width: 200px;
     min-height: 100%;
     max-width: 400px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    position: absolute;
+    left: 0px;
 }
 
 .main {
     /*To allow for image background*/
-    position: relative;
+    position: absolute;
     overflow: hidden;
     background-color: white;
     min-height: 100%;
@@ -20,6 +27,12 @@
     box-shadow: 0 0 30px 5px rgba(0,0,0,0.5);
     padding-left: 20px;
     width: 100%;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    right: 0px;
 }
 
 .main .bg {

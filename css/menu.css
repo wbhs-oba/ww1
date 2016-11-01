@@ -6,16 +6,15 @@
 .navitems a {
     text-decoration: none !important;
     color: #000000 !important;
+    position: relative;
 }
 
-.navitems li {
-    text-align: left;
-    height: 50px;
+.navitems .nametag {
     font-size: 20px;
-    width: 150%;
-    left: -5px;
+    right: 20px;
     text-align: right;
     position: relative;
+    width: 110%;
     overflow: hidden;
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
@@ -23,25 +22,22 @@
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
     background-image: url(../img/tape.png);
-    background-size: contain;
+    background-size: 120%;
     background-repeat: no-repeat;
-    background-position: -50%;
-}
-
-.navitems li .nametag {
-    position: relative;
+    background-position-x: 0;
     font-family: sans-serif;
     font-weight: 800;
     text-transform: uppercase;
     text-decoration: none;
     color: #000000;
-    display: block;
-    width: 50%;
-    left: 30px;
-    top: 13px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-top: 6px;
+    padding-right: 10px;
 }
 
-.navitems li:hover {
-    left: 10px;
-    background-color: rgba(255,255,255,0.25);
+
+.navitems .nametag:hover {
+    right: 0px;
+    filter: brightness(0.8);
 }

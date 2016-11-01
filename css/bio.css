@@ -1,9 +1,8 @@
 .info {
 	/* Background Paper Image  */
 	background-image: url(../img/Page1.png);
-    background-size: 100%;
+	background-size: 100%;
 	/* End of Background Image */
-	
 	/* background-color: white; */
 	padding: 20px;
 	margin-top: 50px;
@@ -25,11 +24,10 @@
     text-align: justify;
     min-height: 200px;
     position: relative;
-    /*top: -200px;*/
-    background: ;
+    padding: 40px;
     padding-top: 20px;
     -webkit-box-shadow: 0 -10px 30px -20px rgba(0,0,0,0.5);
-	box-shadow: 0 -10px 30px -20px rgba(0,0,0,0.5);
+    box-shadow: 0 -10px 30px -20px rgba(0,0,0,0.5);
 }
 
 .card h1 {

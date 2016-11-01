@@ -42,4 +42,9 @@ nav .title {
 	.menu-toggle {
 		width: calc(100% - 200px) !important;
 	}
+
+	nav .title {
+		font-size: 30px;
+		margin-top: 14px;
+	}
 }

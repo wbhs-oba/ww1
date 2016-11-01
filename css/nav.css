@@ -1,10 +1,11 @@
 nav {
 	/* height: 60px; */
 	width: 100%;
-	background-color: white;
-	z-index: 1000;
-	position: relative;
-	overflow: hidden;
+    background-color: #09164d;
+    z-index: 1000;
+    position: relative;
+    overflow: hidden;
+    color: #ffb00f;
 }
 
 nav .menubutton {
@@ -13,7 +14,7 @@ nav .menubutton {
 	padding: 6px;
 	font-size: 25px;
 	cursor: pointer;
-	left: 10px;
+	/* left: 10px; */
 }
 
 nav .menubutton.active {
@@ -22,10 +23,12 @@ nav .menubutton.active {
 }
 
 nav .title {
-	text-align: center;
-	padding-top: 0px;
-	display: block;
-	margin: 10px;
+    text-align: center;
+    padding-top: 0px;
+    display: block;
+    margin: 10px;
+    font-weight: bolder;
+    text-transform: uppercase;
 }
 
 .menu-toggle {

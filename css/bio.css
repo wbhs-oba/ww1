@@ -1,5 +1,10 @@
 .info {
-	background-color: white;
+	/* Background Paper Image  */
+	background-image: url(../img/Page1.png);
+    background-size: 100%;
+	/* End of Background Image */
+	
+	/* background-color: white; */
 	padding: 20px;
 	margin-top: 50px;
 	border-radius: 3px;
@@ -21,7 +26,7 @@
     min-height: 200px;
     position: relative;
     /*top: -200px;*/
-    background: white;
+    background: ;
     padding-top: 20px;
     -webkit-box-shadow: 0 -10px 30px -20px rgba(0,0,0,0.5);
 	box-shadow: 0 -10px 30px -20px rgba(0,0,0,0.5);

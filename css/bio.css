@@ -16,7 +16,7 @@
 	margin-right: auto;
 }
 
-@media (min-width: 1200px) {
+@media (min-device-width: 1200px) {
     .info {
         max-width: 900px;
 		background-size: 900px;

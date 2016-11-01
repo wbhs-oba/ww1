@@ -53,7 +53,7 @@
             <div class="main">
                 <div class="bg"></div>
                 <div class="content row bio">
-                    <div class="col-lg-8 col-lg-offset-2 info">
+                    <div class="info">
                         <img class="profile" src="img/faces/noel_steadman-zoom.png">
                         <div class="card">
                             <h1>Noel Steadman</h1>
@@ -123,9 +123,6 @@
                 $(".main").toggleClass("menu-hidden");
             });
 
-            if( $(document).width() > 900 ) {
-                $(".main").toggleClass("menu-hidden");
-            }
         </script>
     </body>
 </html>

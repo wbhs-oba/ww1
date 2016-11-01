@@ -35,6 +35,7 @@
     right: 0px;
 }
 
+
 .main .bg {
     background-image: url(../img/gallipoli-web.jpg);
     background-position: center left;
@@ -45,9 +46,4 @@
     height: 100%;
     opacity: 0.6;
     z-index: -10;
-}
-
-/* Utils */
-.flexbox-cont {
-    display: flex;
 }

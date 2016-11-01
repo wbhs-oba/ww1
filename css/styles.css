@@ -4,6 +4,9 @@
     background-attachment: fixed;
     background-size: contain;
     background-position: left;
+    width: 300px;
+    min-height: 100%;
+    max-width: 400px;
 }
 
 .main {
@@ -15,6 +18,8 @@
     z-index: 100;
     -webkit-box-shadow: 0 0 30px 5px rgba(0,0,0,0.5);
     box-shadow: 0 0 30px 5px rgba(0,0,0,0.5);
+    padding-left: 20px;
+    width: 100%;
 }
 
 .main .bg {
@@ -29,27 +34,7 @@
     z-index: -10;
 }
 
-/*Bullet*/
-.bullets {
-    list-style-type: none;
-}
-.bullets a {
-    text-decoration: none !important;
-    color: #000000 !important;
-}
-
-.bullets .bullet {
-    background-image: url(../img/bullet-lg-linked.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    text-align: left;
-}
-
-.bullet .nametag {
-    position: relative;
-    font-family: 'Special Elite', cursive;
-    text-decoration: none;
-    color: #000000;
-    display: block;
-    width: 50%;
+/* Utils */
+.flexbox-cont {
+    display: flex;
 }

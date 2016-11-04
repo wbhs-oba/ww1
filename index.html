@@ -1,4 +1,4 @@
-<html>
+<html lang="en" ng-app="memorialapp">
     <head>
         <title>WBHS Memorial</title>
         <link rel="icon"
@@ -9,6 +9,8 @@
             <meta name="mobile-web-app-capable" content="yes">
             <meta name="theme-color" content="#09164d">
             <link rel="manifest" href="manifest.json">
+        <!-- Manifest for offline support -->
+            <html manifest="offline.appcache">
         <!-- Bootstrap -->
             <!-- Latest compiled and minified CSS -->
             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -26,37 +28,15 @@
         <link rel="stylesheet" type="text/css" href="css/menu.css">
         <link rel="stylesheet" type="text/css" href="css/nav.css">
         <link rel="stylesheet" type="text/css" href="css/animate.css">
+
+        <!-- AngularJS -->
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/X.Y.Z/angular-route.js"></script>
+        <script src="app.js"></script>
     </head>
-    <body>
-        <nav>
-            <div class="menubutton glyphicon glyphicon-menu-hamburger" aria-hidden="true"></div>
-            <h1 class="title">World War I Memorial</h1>
-        </nav>
-        <div class="menu">
-            <ul class="navitems">
-                <a href="#"><li class="nametag">N. Steadman</li></a>
-                <a href="#"><li class="nametag">D. Schmidtke</li></a>
-                <a href="#"><li class="nametag">T. Lengyel</li></a>
-                <a href="#"><li class="nametag">U. Dejarnette</li></a>
-                <a href="#"><li class="nametag">C. Lacross</li></a>
-                <a href="#"><li class="nametag">A. Abram</li></a>
-                <a href="#"><li class="nametag">R. Doepke</li></a>
-                <a href="#"><li class="nametag">M. Lummus</li></a>
-                <a href="#"><li class="nametag">R. Salvador</li></a>
-                <a href="#"><li class="nametag">A. Sharpton</li></a>
-                <a href="#"><li class="nametag">C. Watford</li></a>
-                <a href="#"><li class="nametag">D. Kahan</li></a>
-                <a href="#"><li class="nametag">A. Stjean</li></a>
-                <a href="#"><li class="nametag">G. Parisien</li></a>
-                <a href="#"><li class="nametag">N. Kost</li></a>
-                <a href="#"><li class="nametag">C. Winslow</li></a>
-                <a href="#"><li class="nametag">G. Dubin</li></a>
-                <a href="#"><li class="nametag">E. Andersen</li></a>
-                <a href="#"><li class="nametag">J. Conkling</li></a>
-                <a href="#"><li class="nametag">L. Fredericks</li></a>
-                <a href="#"><li class="nametag">L. Harris</li></a>
-            </ul>
-        </div>
+    <body ng-controller="PeopleListController">
+        <div ng-include="'views/common/navigation.html'"></div>
+        <div class="menu" ng-include="'views/common/menu.html'"></div>
         <div class="main">
             <div class="bg"></div>
             <div class="content bio">

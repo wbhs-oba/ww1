@@ -5,35 +5,29 @@ var app = angular.module('memorialapp', ['ngRoute']);
 app.controller('PeopleController', function($scope, $routeParams, $location, $sce) {
 	$scope.people = people;
     var personid = $routeParams.person;
-    var self = this;
-    var person = $.grep(people, function(x){ return x.id == personid; });
-    if (person.length == 0) {
-        console.log("Warning: Person not in database")
-        $location.path("/");
+    // If there is a personid (will always be true once loaded)
+    if (personid) {
+        var person = $.grep(people, function(x){ return x.id == personid; });
+        if (person.length == 0) {
+            console.log("Warning: Person not in database");
+            $location.path("/");
+        } else {
+            person = person[0];
+        }
     } else {
-        person = person[0];
+        return; // if there is no personid then don't bother processing anything this pass, we do so once loading is complete
     }
 
-    $scope.person = {
-            name: person.name,
-            id: person.id,
-            imgpath: person.imgpath,
-            DOB: person.DOB,
-            serviceID: person.serviceID,
-            birthPlace: person.birthPlace,
-            DOD: person.DOD,
-            occupation: person.occupation,
-            deathPlace: person.deathPlace,
-            deathcause: person.deathcause,
-            bio: $sce.trustAsHtml(person.bio)
-            // bio: person.bio
+    // We could just go $scope.person = person to bind this person's data, but we need to sanatize the bio html first!
+    // This means that angularjs now knows that it can trust the html tags in this variable, and will let us render them on the client
+    if (typeof person.bio == "string") {
+        person.bio = $sce.trustAsHtml(person.bio);
     }
+    // Now we can bind it!
+    $scope.person = person;
 
     // Helper to check if the path parameter is the current active route
-    $scope.isActive = function (path) {
-        locid = $location.path().substr(1); // Removes the first character which is a slash ("/")
-        return locid === path;
-    }
+    $scope.currpath = $location.path().substring(1);
 });
 
 app.config(function($routeProvider) {

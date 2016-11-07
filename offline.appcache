@@ -11,6 +11,14 @@ CACHE MANIFEST
 /img/sandbags-yellow.png
 /img/gallipoli-web.png
 /img/faces/noel-steadman-zoom.png
+/img/patterns/concrete_wall.png
+/img/icons/favicon.png
+/img/icons/web_hi_res_512.png
+/img/icons/mipmap-mdpi/ic_launcher.png
+/img/icons/mipmap-hdpi/ic_launcher.png
+/img/icons/mipmap-xhdpi/ic_launcher.png
+/img/icons/mipmap-xxhdpi/ic_launcher.png
+/img/icons/mipmap-xxxhdpi/ic_launcher.png
 /lib/bootstrap/js/bootstrap.min.js
 /lib/bootstrap/css/bootstrap.min.css
 /lib/bootstrap/fonts/glyphicons-halflings-regular.eot

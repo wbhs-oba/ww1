@@ -38,8 +38,8 @@ app.controller('PeopleController', function($scope, $routeParams, $location, $sc
 app.config(function($routeProvider) {
     $routeProvider
     .when("/", {
-        redirectTo: "/0/"
-        // templateUrl : "views/person.html"
+        templateUrl : "views/welcome.html",
+        controller: 'welcomeController'
     })
     .when("/:person", {
         templateUrl : "views/person.html",

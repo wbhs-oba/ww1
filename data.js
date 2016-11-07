@@ -6,7 +6,7 @@ people = [
     {
         name: "N. Steadman",
         imgpath: "img/faces/noel_steadman.jpg",
-        id: "0",
+        id: "12-4",
         DOB: "26/12/1890",
         serviceID: "12/4",
         birthPlace: "Whangarei, New Zealand",

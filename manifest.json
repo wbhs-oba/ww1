@@ -1,5 +1,6 @@
 {
   "name": "World War I Memorial",
+  "short_name": "WWI Memorial",
   "icons": [
     {
       "src": "img/icons/res/mipmap-mdpi/ic_launcher.png",

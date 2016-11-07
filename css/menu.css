@@ -37,7 +37,7 @@
 }
 
 
-.navitems .nametag:hover {
+.navitems .nametag:hover, .navitems .nametag.active {
     right: 0px;
     filter: brightness(0.8);
 }

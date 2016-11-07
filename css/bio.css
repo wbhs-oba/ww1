@@ -30,11 +30,13 @@
     .info {
     	margin: 0px;
     	width: 100%;
+    	max-width: 100%;
     	top: -10px;
     	position: relative;
     	background-position-y: bottom;
     	background-repeat: no-repeat;
-    	background-size: cover;
+    	/* In order to get rid of transparent edges (which makes the menu not look right) */
+    	background-size: 105%;
     }
 }
 

@@ -47,7 +47,14 @@
     </div>
 </div>
 <script type="text/javascript">
-    function togglemenu() {
+    function togglemenu(responsive=false) {
+        if (responsive) {
+            if ($(document).width() < 1100) {
+                // Allow the script to continue
+            } else {
+                return;
+            }
+        }
         $( "nav .menubutton" ).toggleClass("active");
         $(".main").toggleClass("menu-toggle");
         $(".menu").toggleClass("active");

@@ -28,6 +28,12 @@ app.controller('PeopleController', function($scope, $routeParams, $location, $sc
             bio: $sce.trustAsHtml(person.bio)
             // bio: person.bio
     }
+
+    // Helper to check if the path parameter is the current active route
+    $scope.isActive = function (path) {
+        locid = $location.path().substr(1); // Removes the first character which is a slash ("/")
+        return locid === path;
+    }
 });
 
 app.config(function($routeProvider) {

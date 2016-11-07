@@ -1,5 +1,5 @@
 <ul class="navitems">
-    <a ng-repeat="person in people" href="#/{{person.id}}" onclick="togglemenu(true)" ngClass="{active: isActive('/tasks')}"><li class="nametag">{{person.name}}</li></a>
+    <a ng-repeat="person in people" href="#/{{person.id}}" onclick="togglemenu(true)"><li class="nametag" ng-class="{active: person.id == person.currpath}">{{person.name}}</li></a>
 </ul>
 <script>
     $(".bullet").click(function () {

@@ -3,6 +3,11 @@ var app = angular.module('memorialapp', ['ngRoute']);
 
 // Define the 'PeopleListController' controller on the MemorialApp module
 app.controller('PeopleController', function($scope, $routeParams, $location, $sce) {
+    // Add currpath directive to each person for the menu
+    for (var i = people.length - 1; i >= 0; i--) {
+        // Helper to check if the path parameter is the current active route
+        people[i].currpath = $location.path().substring(1)
+    }
 	$scope.people = people;
     var personid = $routeParams.person;
     // If there is a personid (will always be true once loaded)

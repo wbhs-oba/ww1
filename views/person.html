@@ -1,0 +1,48 @@
+<div class="bg"></div>
+<div class="content bio">
+    <div class="info">
+        <img class="profile" src="img/faces/noel_steadman-zoom.png">
+        <div class="card">
+            <h1>{{person.name}}</h1>
+            <div class="row">
+                <div class="col-sm-6 text-left">
+                    <h4 id="dob">
+                        <strong>DOB:</strong>
+                        {{person.DOB}}
+                    </h4>
+                    <h4 id="sid">
+                        <strong>Service ID:</strong>
+                        {{person.serviceID}}
+                    </h4>
+                    <h4 id="birthplace">
+                        <strong>Place of Birth:</strong>
+                        {{person.birthPlace}}
+                    </h4>
+                </div>
+                <div class="col-sm-6 text-right text-left-mob">
+                    <h4 id="dod">
+                        <strong>DOD:</strong>
+                        {{person.DOD}}
+                    </h4>
+                    <h4 id="occ">
+                        <strong>Occupation:</strong>
+                        {{person.occupation}}
+                    </h4>
+                    <h4 id="deathplace">
+                        <strong>Place of Death:</strong>
+                        {{person.deathPlace}}
+                    </h4>
+                </div>
+            </div>
+            <h4 id="deathcause" class="text-center">
+                <strong>Cause of Death:</strong>
+                {{person.deathcause}}
+            </h4>
+            <div id="bio">
+                <h3>Biography:</h3>
+                <div ng-bind-html="person.bio">
+				</div>
+            </div>
+        </div>
+    </div>
+</div>

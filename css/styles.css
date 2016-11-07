@@ -10,6 +10,21 @@
     transition: all 0.3s ease;
     position: absolute;
     left: 0px;
+    opacity: 0;
+}
+
+.menu.active {
+    opacity: 1;
+}
+
+@media (min-width: 1100px) {
+    .menu {
+        opacity: 1;
+    }
+
+    .menu.active {
+        opacity: 0;
+    }
 }
 
 body {
@@ -23,7 +38,6 @@ body {
     /*To allow for image background*/
     position: absolute;
     overflow: hidden;
-    background-color: white;
     min-height: 100%;
     z-index: 100;
     -webkit-box-shadow: 0 0 30px 5px rgba(0,0,0,0.5);
@@ -37,6 +51,7 @@ body {
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
     right: 0px;
+    background-color: white;
 }
 
 
@@ -50,10 +65,29 @@ body {
     height: 100%;
     opacity: 0.6;
     z-index: -10;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
 }
 
 @media (max-width: 991px) {
     .text-left-mob {
         text-align: left !important;
+    }
+
+    .main .bg {
+        opacity: 0;
+    }
+
+    .main {
+        background-color: transparent;
+        left: 0px;
+    }
+
+    .main.menu-toggle {
+        width: 100% !important;
+        left: 200px;
     }
 }

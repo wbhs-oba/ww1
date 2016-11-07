@@ -18,30 +18,6 @@
 	width: calc(100% - 40px);
 }
 
-@media (min-device-width: 1200px) {
-    .info {
-        max-width: 900px;
-        background-size: 900px;
-        background-position-y: 0px;
-        margin-top: 0px;
-        width: 100%;
-        background-repeat: no-repeat;
-    }
-}
-@media (max-width: 991px) {
-    .info {
-    	margin: 0px;
-    	width: 100%;
-    	max-width: 100%;
-    	top: -10px;
-    	position: relative;
-    	background-position-y: bottom;
-    	background-repeat: no-repeat;
-    	/* In order to get rid of transparent edges (which makes the menu not look right) */
-    	background-size: auto 105%;
-    }
-}
-
 .bio .profile {
 	width: inherit;
 	max-width: 500px;

@@ -31,83 +31,14 @@
 
         <!-- AngularJS -->
         <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
-        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/X.Y.Z/angular-route.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular-route.js"></script>
         <script src="app.js"></script>
     </head>
-    <body ng-controller="PeopleListController">
+    <body ng-controller="PeopleController">
         <div ng-include="'views/common/navigation.html'"></div>
         <div class="menu" ng-include="'views/common/menu.html'"></div>
         <div class="main">
-            <div class="bg"></div>
-            <div class="content bio">
-                <div class="info">
-                    <img class="profile" src="img/faces/noel_steadman-zoom.png">
-                    <div class="card">
-                        <h1>Noel Steadman</h1>
-                        <div class="row">
-                            <div class="col-sm-6 text-left">
-                                <h4 id="dob">
-                                    <strong>DOB:</strong>
-                                    26/12/1890
-                                </h4>
-                                <h4 id="sid">
-                                    <strong>Service ID:</strong>
-                                    12/4
-                                </h4>
-                                <h4 id="birthplace">
-                                    <strong>Place of Birth:</strong>
-                                    Whangarei, New Zealand
-                                </h4>
-                            </div>
-                            <div class="col-sm-6 text-right text-left-mob">
-                                <h4 id="dod">
-                                    <strong>DOD:</strong>
-                                    15/05/1915
-                                </h4>
-                                <h4 id="occ">
-                                    <strong>Occupation:</strong>
-                                    WW1 Electrical engineer
-                                </h4>
-                                <h4 id="deathplace">
-                                    <strong>Place of Death:</strong>
-                                    Dardanelles, Gallipoli, Turkey.
-                                </h4>
-                            </div>
-                        </div>
-                        <h4 id="deathcause" class="text-center">
-                            <strong>Cause of Death:</strong>
-                            Killed in Action
-                        </h4>
-                        <div id="bio">
-                            <h3>Biography:</h3>
-                            <div>
-								<h5> Noel Steadman</h5>
-								<p>Noel Steadman was the son of Lieutenant-Colonel Thomas Herbert Steadman 
-								<i>(Territorial Force, 15th (North Auckland) Regiment)</i> and Edith Minnie Steadman of Whangarei. </p>
- 
-								<p>He was a pupil at Whangarei High School during 1904 and 1905 but left in 1906 to enter King’s College in Auckland.</p>  
-
-								<p>After leaving school he devoted his studies to engineering.</p> 
-								  
-								<p>When war broke out he enlisted and left with the Main Body as a lieutenant in the Auckland Infantry. </p> 
-								 
-								<p>He took part in the defence of the Suez Canal and the landing at Gallipoli and was afterwards 
-								killed on the 8th May 1915 in the attack on Krithia in the Dardanelles.</p> 
-							</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <div ng-view></div>
         </div>
-        <script>
-            $(".bullet").click(function () {
-                $( this ).addClass("fly");
-            });
-
-            $("nav .menubutton").click(function () {
-                $( this ).toggleClass("active");
-                $(".main").toggleClass("menu-toggle");
-            });
-        </script>
     </body>
 </html>

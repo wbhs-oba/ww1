@@ -17,6 +17,7 @@ app.controller('PeopleController', function($scope, $routeParams, $location, $sc
     $scope.person = {
             name: person.name,
             id: person.id,
+            imgpath: person.imgpath,
             DOB: person.DOB,
             serviceID: person.serviceID,
             birthPlace: person.birthPlace,

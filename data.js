@@ -5,6 +5,7 @@
 people = [
     {
         name: "N. Steadman",
+        imgpath: "img/faces/noel_steadman.jpg",
         id: "0",
         DOB: "26/12/1890",
         serviceID: "12/4",
@@ -17,6 +18,7 @@ people = [
     },
     {
         name: "D. Schmidtke",
+        imgpath: "img/faces/noel_steadman.jpg",
         id: "1",
         DOB: "09/10/1870",
         serviceID: "6/15",
@@ -29,6 +31,7 @@ people = [
     },
     {
         name: "T. Lengyel",
+        imgpath: "img/faces/noel_steadman.jpg",
         id: "2",
         DOB: "06/12/1870",
         serviceID: "10/11",
@@ -41,6 +44,7 @@ people = [
     },
     {
         name: "U. Dejarnette",
+        imgpath: "img/faces/noel_steadman.jpg",
         id: "3",
         DOB: "05/12/1873",
         serviceID: "2/4",
@@ -53,6 +57,7 @@ people = [
     },
     {
         name: "C. Lacross",
+        imgpath: "img/faces/noel_steadman.jpg",
         id: "4",
         DOB: "25/05/1875",
         serviceID: "6/4",
@@ -65,6 +70,7 @@ people = [
     },
     {
         name: "A. Abram",
+        imgpath: "img/faces/noel_steadman.jpg",
         id: "5",
         DOB: "30/04/1877",
         serviceID: "12/13",
@@ -77,6 +83,7 @@ people = [
     },
     {
         name: "R. Doepke",
+        imgpath: "img/faces/noel_steadman.jpg",
         id: "6",
         DOB: "02/02/1878",
         serviceID: "12/7",
@@ -89,6 +96,7 @@ people = [
     },
     {
         name: "M. Lummus",
+        imgpath: "img/faces/noel_steadman.jpg",
         id: "7",
         DOB: "23/08/1879",
         serviceID: "8/14",
@@ -101,6 +109,7 @@ people = [
     },
     {
         name: "R. Salvador",
+        imgpath: "img/faces/noel_steadman.jpg",
         id: "8",
         DOB: "09/09/1879",
         serviceID: "8/15",
@@ -113,6 +122,7 @@ people = [
     },
     {
         name: "A. Sharpton",
+        imgpath: "img/faces/noel_steadman.jpg",
         id: "9",
         DOB: "09/10/1880",
         serviceID: "19/8",
@@ -125,6 +135,7 @@ people = [
     },
     {
         name: "C. Watford",
+        imgpath: "img/faces/noel_steadman.jpg",
         id: "10",
         DOB: "20/02/1881",
         serviceID: "12/20",
@@ -137,6 +148,7 @@ people = [
     },
     {
         name: "D. Kahan",
+        imgpath: "img/faces/noel_steadman.jpg",
         id: "11",
         DOB: "10/05/1881",
         serviceID: "10/5",
@@ -149,6 +161,7 @@ people = [
     },
     {
         name: "A. Stjean",
+        imgpath: "img/faces/noel_steadman.jpg",
         id: "12",
         DOB: "03/02/1882",
         serviceID: "16/15",
@@ -161,6 +174,7 @@ people = [
     },
     {
         name: "G. Parisien",
+        imgpath: "img/faces/noel_steadman.jpg",
         id: "13",
         DOB: "25/06/1883",
         serviceID: "16/13",
@@ -173,6 +187,7 @@ people = [
     },
     {
         name: "N. Kost",
+        imgpath: "img/faces/noel_steadman.jpg",
         id: "14",
         DOB: "03/08/1883",
         serviceID: "2/3",
@@ -185,6 +200,7 @@ people = [
     },
     {
         name: "C. Winslow",
+        imgpath: "img/faces/noel_steadman.jpg",
         id: "15",
         DOB: "16/01/1885",
         serviceID: "11/17",
@@ -197,6 +213,7 @@ people = [
     },
     {
         name: "G. Dubin",
+        imgpath: "img/faces/noel_steadman.jpg",
         id: "16",
         DOB: "16/11/1885",
         serviceID: "5/4",
@@ -209,6 +226,7 @@ people = [
     },
     {
         name: "E. Andersen",
+        imgpath: "img/faces/noel_steadman.jpg",
         id: "17",
         DOB: "17/09/1887",
         serviceID: "8/19",
@@ -221,6 +239,7 @@ people = [
     },
     {
         name: "J. Conkling",
+        imgpath: "img/faces/noel_steadman.jpg",
         id: "18",
         DOB: "24/04/1888",
         serviceID: "3/17",
@@ -233,6 +252,7 @@ people = [
     },
     {
         name: "L. Fredericks",
+        imgpath: "img/faces/noel_steadman.jpg",
         id: "19",
         DOB: "02/02/1889",
         serviceID: "9/8",
@@ -245,6 +265,7 @@ people = [
     },
     {
         name: "L. Harris",
+        imgpath: "img/faces/noel_steadman.jpg",
         id: "20",
         DOB: "05/04/1889",
         serviceID: "10/17",

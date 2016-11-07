@@ -38,6 +38,12 @@
         position: relative;
     }
 
+    .navpadding {
+        padding-top: 59px;
+    }
+}
+
+@media (min-width: 1100px) {
     .menu {
         opacity: 1;
     }
@@ -76,5 +82,16 @@
     .main.menu-toggle {
         width: 100% !important;
         left: 200px;
+    }
+
+    .navitems {
+        padding-top: 0px;
+    }
+}
+
+@media (max-width: 600px) {
+    .navitems {
+        position: fixed;
+        width: 200px;
     }
 }

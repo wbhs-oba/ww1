@@ -93,5 +93,7 @@
     .navitems {
         position: fixed;
         width: 200px;
+        max-height: 100%;
+        overflow: scroll;
     }
 }

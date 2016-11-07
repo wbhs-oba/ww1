@@ -57,4 +57,10 @@ nav .title img {
 		font-size: 25px;
 		margin-top: 17px;
 	}
+
+	nav .title img {
+		max-height: 30px;
+		top: -3px;
+		position: relative;
+	}
 }

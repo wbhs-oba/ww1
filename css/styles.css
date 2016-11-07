@@ -83,5 +83,11 @@ body {
 
     .main {
         background-color: transparent;
+        left: 0px;
+    }
+
+    .main.menu-toggle {
+        width: 100% !important;
+        left: 200px;
     }
 }

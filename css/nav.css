@@ -34,6 +34,10 @@ nav .title {
     text-transform: uppercase;
 }
 
+nav .title img {
+	max-height: 40px;
+}
+
 .menu-toggle {
 	width: 100% !important;
 }

@@ -4,6 +4,7 @@
 	background-size: 991px;
 	/* End of Background Image */
 	background-position-x: center;
+	background-repeat: no-repeat;
 	/* background-color: white; */
 	padding: 20px;
 	/* margin-top: 50px; */
@@ -21,9 +22,10 @@
     .info {
         max-width: 900px;
         background-size: 900px;
+        background-position-y: 0px;
         margin-top: 0px;
         width: 100%;
-        background-position-y: 0px;
+        background-repeat: no-repeat;
     }
 }
 @media (max-width: 991px) {
@@ -36,7 +38,7 @@
     	background-position-y: bottom;
     	background-repeat: no-repeat;
     	/* In order to get rid of transparent edges (which makes the menu not look right) */
-    	background-size: 105%;
+    	background-size: auto 105%;
     }
 }
 

@@ -103,8 +103,7 @@ people = [{
         occupation: " ",
         deathPlace: " ",
         deathcause: " ",
-        bio: "Tui Crawford Cameron, the youngest son of Mr Thos. Cameron, of Hora Hora, Whangarei, was with us for over three years. He enrolled in February, 1909, and left in 1912. After leaving school he entered business and en listed at the earliest opportunity. With Frank McKenzie, he joined the 13ths and saw service in France. He was present during the successful opening of the battle of the Somme in 1916 and after a very successful forward push was killed in the holding trenches.Tuj was ever to the front in whatever was going on. He was a very popular junior. His amiable disposition and genial good-humour made him a "
-        "centre of attraction among the members of the junior forms."
+        bio: "Tui Crawford Cameron, the youngest son of Mr Thos. Cameron, of Hora Hora, Whangarei, was with us for over three years. He enrolled in February, 1909, and left in 1912. After leaving school he entered business and en listed at the earliest opportunity. With Frank McKenzie, he joined the 13ths and saw service in France. He was present during the successful opening of the battle of the Somme in 1916 and after a very successful forward push was killed in the holding trenches.Tuj was ever to the front in whatever was going on. He was a very popular junior. His amiable disposition and genial good-humour made him a centre of attraction among the members of the junior forms."
     }, {
         name: "R. Carter",
         fullname: " ",
@@ -117,7 +116,7 @@ people = [{
         occupation: " ",
         deathPlace: " ",
         deathcause: " ",
-        bio: " ",
+        bio: " "
     }, {
         name: "C.O.A. Cowan ",
         fullname: " ",
@@ -130,7 +129,7 @@ people = [{
         occupation: " ",
         deathPlace: " ",
         deathcause: " ",
-        bio: " ",
+        bio: " "
     }, {
         name: "W.L. Clapson",
         fullname: " ",
@@ -143,7 +142,7 @@ people = [{
         occupation: " ",
         deathPlace: " ",
         deathcause: " ",
-        bio: " ",
+        bio: " "
     }, {
         name: "B.C. Drake",
         fullname: " ",
@@ -156,7 +155,7 @@ people = [{
         occupation: " ",
         deathPlace: " ",
         deathcause: " ",
-        bio: " ",
+        bio: " "
     }, {
         name: "J.C. Galbraith",
         fullname: " ",
@@ -169,7 +168,7 @@ people = [{
         occupation: " ",
         deathPlace: " ",
         deathcause: " ",
-        bio: " ",
+        bio: " "
     }, {
         name: "C.H. Goodson",
         fullname: " ",
@@ -182,7 +181,7 @@ people = [{
         occupation: " ",
         deathPlace: " ",
         deathcause: " ",
-        bio: " ",
+        bio: " "
     }, {
         name: "C.E. Gribble",
         fullname: " ",
@@ -195,7 +194,7 @@ people = [{
         occupation: " ",
         deathPlace: " ",
         deathcause: " ",
-        bio: " ",
+        bio: " "
     }, {
         name: "H.F. Griffin",
         fullname: " ",
@@ -208,7 +207,7 @@ people = [{
         occupation: " ",
         deathPlace: " ",
         deathcause: " ",
-        bio: " ",
+        bio: " "
     }, {
         name: "C.H. Hill",
         fullname: " ",
@@ -221,7 +220,7 @@ people = [{
         occupation: " ",
         deathPlace: " ",
         deathcause: " ",
-        bio: " ",
+        bio: " "
     }, {
         name: "A.D. Jack",
         fullname: " ",
@@ -234,7 +233,7 @@ people = [{
         occupation: " ",
         deathPlace: " ",
         deathcause: " ",
-        bio: " ",
+        bio: " "
     }, {
         name: "D.L. Jack ",
         fullname: "Donald Leslie Jack",
@@ -260,7 +259,7 @@ people = [{
         occupation: " ",
         deathPlace: " ",
         deathcause: " ",
-        bio: "Olaf Johnson, son of Mr J. C. Johnson, late well-known settler of the Whananaki district, was at the High School for three years, 1905-7. He matriculated and then returned home to assist on his father's farm. He left with the A.M.R. in the 2nd Reinforcement as a lieutenant. Later, on Gallipoli, he was promoted to captain. He was killed in action on August 9th, 1916. Olaf was known in school as a boxer of some repute, end a successful student. Of a frank and cheery disposition he became prominent in all school activities and could be relied upon to “stick it out’’ to the last. Absolutely without fear his actions sometimes seemed to be foolhardy and it was perhaps this fearlessness which caused him to lose his life. We shall mourn Olaf as a gentleman, keen soldier, and one who took a sincere interest in the welfare of his old school. Like Harry Cameron he, too, made a special trip to see us all just before embarking."
+        bio: "Olaf Johnson, son of Mr J. C. Johnson, late well-known settler of the Whananaki district, was at the High School for three years, 1905-7. He matriculated and then returned home to assist on his father's farm. He left with the A.M.R. in the 2nd Reinforcement as a lieutenant. Later, on Gallipoli, he was promoted to captain. He was killed in action on August 9th, 1916. Olaf was known in school as a boxer of some repute, end a successful student. Of a frank and cheery disposition he became prominent in all school activities and could be relied upon to ''stick it out'' to the last. Absolutely without fear his actions sometimes seemed to be foolhardy and it was perhaps this fearlessness which caused him to lose his life. We shall mourn Olaf as a gentleman, keen soldier, and one who took a sincere interest in the welfare of his old school. Like Harry Cameron he, too, made a special trip to see us all just before embarking."
     }, {
         name: "M.A. McDonald",
         fullname: " ",
@@ -273,7 +272,7 @@ people = [{
         occupation: " ",
         deathPlace: " ",
         deathcause: " ",
-        bio: " ",
+        bio: " "
     }, {
         name: "F.J. McKenzie",
         fullname: "Frank J. McKenzie",
@@ -286,7 +285,7 @@ people = [{
         occupation: " ",
         deathPlace: " ",
         deathcause: " ",
-        bio: "Frank J. McKenzie was born at the Whangarei heads and entered school late, more than a year after he qualified for his junior free place. Although he only stayed with us for two years he quickly won his way into the school fifteen by sheer pluck and dash, and into the hearts of his school mates by his genial manners and sterling qualities. Leaving school h? entered the service of the Education Board, Auckland; was at the Training College in 1915, and enlisted in the 13th Reinforcements. When on final leave Frank took the opportunity of revisiting his ?ld school and came on the same day that six or seven old boys, who had joined the 12ths, were calling to say good-bye. Frank was proud of being in the Devil's Own, as the 13ths were known in camp and took in great good humour the banter he received owing to the recent raid on the canteen in camp—something put down to the lively manners  of the boys of the 13th Reinforcement. Frank would carry on in the battlefield as a cheery, bravo-hearted  boy would do, a favourite with all. He was wounded severely in a voluntary raid at Armentieres and died of wounds on March 1st in Boulogne.",
+        bio: "Frank J. McKenzie was born at the Whangarei heads and entered school late, more than a year after he qualified for his junior free place. Although he only stayed with us for two years he quickly won his way into the school fifteen by sheer pluck and dash, and into the hearts of his school mates by his genial manners and sterling qualities. Leaving school h? entered the service of the Education Board, Auckland; was at the Training College in 1915, and enlisted in the 13th Reinforcements. When on final leave Frank took the opportunity of revisiting his ?ld school and came on the same day that six or seven old boys, who had joined the 12ths, were calling to say good-bye. Frank was proud of being in the Devil's Own, as the 13ths were known in camp and took in great good humour the banter he received owing to the recent raid on the canteen in camp—something put down to the lively manners  of the boys of the 13th Reinforcement. Frank would carry on in the battlefield as a cheery, bravo-hearted  boy would do, a favourite with all. He was wounded severely in a voluntary raid at Armentieres and died of wounds on March 1st in Boulogne."
     }, {
         name: "R.W. McKenzie",
         fullname: " ",
@@ -299,7 +298,7 @@ people = [{
         occupation: " ",
         deathPlace: " ",
         deathcause: " ",
-        bio: " ",
+        bio: " "
     }, {
         name: "A. McLeod",
         fullname: "ALEXANDER McLEOD",
@@ -312,7 +311,7 @@ people = [{
         occupation: " ",
         deathPlace: " ",
         deathcause: " ",
-        bio: "Alexander McLeod, or Axie as he was universally called, was a son of Mr D. M. McLeod, of Whau Valley, Whangarei. Alex. was at the High school during 1906. After leaving school he was farming with his father. When war broke out he enlisted and left with the Main Body as a trooper in the Auckland Mounted Rifles. He landed at Gallipoli and was among those reported missing on 8th August,1915. Axie. became a popular boy on the first day of his High School life. Almost new to football he quickly picked up a knowledge of the game as a hard-working forward. Absolutely fearless, he could always be relied upon to stop an ugly rush and although his second career was a short one it was still long enough to make him popular member of school. We were indeed sorry that he was unable to be with us for more than one year.",
+        bio: "Alexander McLeod, or Axie as he was universally called, was a son of Mr D. M. McLeod, of Whau Valley, Whangarei. Alex. was at the High school during 1906. After leaving school he was farming with his father. When war broke out he enlisted and left with the Main Body as a trooper in the Auckland Mounted Rifles. He landed at Gallipoli and was among those reported missing on 8th August,1915. Axie. became a popular boy on the first day of his High School life. Almost new to football he quickly picked up a knowledge of the game as a hard-working forward. Absolutely fearless, he could always be relied upon to stop an ugly rush and although his second career was a short one it was still long enough to make him popular member of school. We were indeed sorry that he was unable to be with us for more than one year."
     }, {
         name: "J.D. McLeod",
         fullname: "Johndy MacLeod",
@@ -325,7 +324,7 @@ people = [{
         occupation: " ",
         deathPlace: " ",
         deathcause: " ",
-        bio: "J. D. MacLeod, ''Johndy'' as he was familiarly known, was a son of the late Mr. Donald MacLeod, a well-known Hikurangi settler. He entered the High School in 1905, matriculated in 1908, and took his Senior Civil Service exam. in 1909. Entering the teaching profession he pa?sed through the Training College and went to KeriKeri, Bay of Islands, and later on to Tangowahine. He joined the 8th Reinforcements and was posted as sergeant in a Canterbury Infantry Battalion.He was among those killed in the first battle of the Somme in September, 1916. Although quiet and unassuming, J. D. MacLeod thoroughly enjoyed his school life, scoring success possibly more as a student than as an athlete. As a senior in the school his influence among his school fellows was decidedly good. ‘‘Johandy’’ was thoroughly popular wherever he went. His death in France has cut short a life of quiet inspiration and fine influence among the people he lived and worked among."
+        bio: "J. D. MacLeod, ''Johndy'' as he was familiarly known, was a son of the late Mr. Donald MacLeod, a well-known Hikurangi settler. He entered the High School in 1905, matriculated in 1908, and took his Senior Civil Service exam. in 1909. Entering the teaching profession he pa?sed through the Training College and went to KeriKeri, Bay of Islands, and later on to Tangowahine. He joined the 8th Reinforcements and was posted as sergeant in a Canterbury Infantry Battalion.He was among those killed in the first battle of the Somme in September, 1916. Although quiet and unassuming, J. D. MacLeod thoroughly enjoyed his school life, scoring success possibly more as a student than as an athlete. As a senior in the school his influence among his school fellows was decidedly good. ''Johandy'' was thoroughly popular wherever he went. His death in France has cut short a life of quiet inspiration and fine influence among the people he lived and worked among."
     }, {
         name: "C.J. Marshall",
         fullname: " ",
@@ -390,7 +389,7 @@ people = [{
         occupation: " ",
         deathPlace: " ",
         deathcause: " ",
-        bio: "Henry Lee Rouse, son of Mr Rouse, of Hukerenui. He came to the school after the second term in 1910, leaving at the end of 1912. Entering camp in 1916 he left with the 14ths. He did not manage to reach France, but was invalided back from England and died in the Auckland Hospital in December, 1916.Rouse was a boy of splendid physique and of a very quiet, retiring disposition. During his term at school he was a member of the school fifteen and showed that he possessed the the qualities that go to make a successful forward. Being a train-boy the opportunity of knowing him well was denied us."
+        bio: "Henry Lee Rouse, son of Mr Rouse, of Hukerenui. He came to the school after the second term in 1910, leaving at the end of 1912. Entering camp in 1916 he left with the 14ths. He did not manage to reach France, but was invalided back from England and died in the Auckland Hospital in December, 1916. Rouse was a boy of splendid physique and of a very quiet, retiring disposition. During his term at school he was a member of the school fifteen and showed that he possessed the the qualities that go to make a successful forward. Being a train-boy the opportunity of knowing him well was denied us."
     }, {
         name: "N. Steadman",
         fullname: "NOEL STEADMAN",

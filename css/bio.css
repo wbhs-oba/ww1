@@ -77,3 +77,11 @@
 }
 
 .attachments .attachment:hover {box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);}
+
+.attachments .attachment.pdf {
+	background-color: gray;
+	background-image: linear-gradient(rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0.74902) 100%), url("../img/icons/pdf-sm.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}

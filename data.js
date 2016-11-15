@@ -944,21 +944,34 @@ people = [{
         bio: "<p>N. Steadman was the son of Lieutenant-Colonel Thomas Herbert Steadman <i>(Territorial Force, 15th (North Auckland) Regiment)</i> and Edith Minnie Steadman of Whangarei. </p><p>He was a pupil at Whangarei High School during 1904 and 1905 but left in 1906 to enter King’s College in Auckland.</p><p>After leaving school he devoted his studies to engineering.</p><p>When war broke out he enlisted and left with the Main Body as a lieutenant in the Auckland Infantry. </p><p>He took part in the defence of the Suez Canal and the landing at Gallipoli and was afterwards killed on the 8th May 1915 in the attack on Krithia in the Dardanelles.</p>",
         attachments: [
             {
-                "name": "Example Photograph",
+                "name": "Personal File",
                 "type": "image",
-                "url": "attachments/example/example-ww1.jpg",
-                "thumbnail": "attachments/example/example-ww1.jpg"
+                "url": "attachments/12-4/1.jpg",
+                "thumbnail": "attachments/12-4/1.jpg"
             },
             {
-                "name": "Example Clipping",
+                "name": "Personal File",
                 "type": "image",
-                "url": "attachments/example/example-clipping.jpg",
-                "thumbnail": "attachments/example/example-clipping.jpg"
+                "url": "attachments/12-4/2.jpg",
+                "thumbnail": "attachments/12-4/2.jpg"
             },
-            {
-                "name": "Example PDF",
-                "type": "pdf",
-                "url": "attachments/example/example.pdf"
+			{
+                "name": "Military History Sheet",
+                "type": "image",
+                "url": "attachments/12-4/3.jpg",
+                "thumbnail": "attachments/12-4/3.jpg"
+            },
+			{
+                "name": "Job Application",
+                "type": "image",
+                "url": "attachments/12-4/4.jpg",
+                "thumbnail": "attachments/12-4/4.jpg"
+            },
+			{
+                "name": "Personal File",
+                "type": "image",
+                "url": "attachments/12-4/5.jpg",
+                "thumbnail": "attachments/12-4/5.jpg"
             }
         ]
     }, {

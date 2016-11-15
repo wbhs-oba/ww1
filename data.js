@@ -728,6 +728,7 @@ people = [{
         ]
     }, {
         name: "N. Steadman",
+		fullname: "Noel Steadman",
         imgpath: "img/faces/12-4.jpg",
         id: "12-4",
         DOB: "26/12/1890",

@@ -7,10 +7,6 @@
         width: 100%;
         background-repeat: no-repeat;
     }
-
-    .info-bottom {
-        display: none;
-    }
 }
 
 @media (max-width: 1150px) {
@@ -96,7 +92,10 @@
     .navitems {
         padding-top: 0px;
     }
-
+    
+    .info-bottom {
+        display: none;
+    }
 
 }
 

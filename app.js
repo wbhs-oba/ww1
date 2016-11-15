@@ -33,16 +33,30 @@ app.controller('PeopleController', function($scope, $routeParams, $location, $sc
 
     // Helper to check if the path parameter is the current active route
     $scope.currpath = $location.path().substring(1);
+    $scope.pageClass = "page-person";
+});
+
+app.controller('WelcomeController', function($scope) {
+    $scope.pageClass = "page-welcome";
+});
+
+app.controller('RandomController', function($location) {
+    var randPerson = people[Math.floor(Math.random() * people.length)];
+    $location.path("/tag/" + randPerson.id);
 });
 
 app.config(function($routeProvider) {
     $routeProvider
     .when("/", {
         templateUrl : "views/welcome.html",
-        controller: 'PeopleController'
+        controller: 'WelcomeController'
     })
-    .when("/:person", {
+    .when("/tag/:person", {
         templateUrl : "views/person.html",
         controller: 'PeopleController'
+    })
+    .when("/random", {
+        templateUrl : "views/person.html",
+        controller: 'RandomController'
     })
 });

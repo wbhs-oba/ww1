@@ -14,17 +14,19 @@
         <!-- Bootstrap -->
             <!-- Latest compiled and minified CSS -->
             <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
-        
-        <!-- Jquery -->
-        <script src="lib/jquery.min.js"></script>
 
-        <!-- Latest compiled and minified JavaScript -->
-        <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+            
+            <!-- Jquery -->
+            <script src="lib/jquery.min.js"></script>
+
+            <!-- Latest compiled and minified JavaScript -->
+            <script src="lib/bootstrap/js/bootstrap.min.js"></script>
         <!-- Stylesheets -->
         <link rel="stylesheet" type="text/css" href="css/styles.css">
         <link rel="stylesheet" type="text/css" href="css/bio.css">
         <link rel="stylesheet" type="text/css" href="css/menu.css">
         <link rel="stylesheet" type="text/css" href="css/nav.css">
+        <link rel="stylesheet" type="text/css" href="css/welcome.css">
         <link rel="stylesheet" type="text/css" href="css/responsive.css">
         <!-- AngularJS -->
         <script type="text/javascript" src="lib/angular.min.js"></script>
@@ -34,12 +36,15 @@
         <script src="data.js"></script>
         <script src="app.js"></script>
     </head>
-    <body ng-controller="PeopleController">
+    <body>
         <!-- Icon and logo font is called Franchise and is free for commercial and personal use -->
         <div ng-include="'views/common/navigation.html'"></div>
-        <div class="menu" ng-include="'views/common/menu.html'"></div>
-        <div class="main">
-            <div ng-view></div>
+        <div class="bodyrow">
+            <div class="menu col" ng-include="'views/common/menu.html'" ng-controller="PeopleController"></div>
+            <div class="main col">
+                <div ng-view class="{{pageClass}}"></div>
+            </div>
         </div>
+        <div class="ng-scripts" ng-include="'views/common/ng-scripts.html'">
     </body>
 </html>

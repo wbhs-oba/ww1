@@ -41,7 +41,11 @@
             <div id="bio">
                 <h3>Biography:</h3>
                 <div ng-bind-html="person.bio">
-				</div>
+                </div>
+            </div>
+            <h3>Attachments:</h3>
+            <div class="attachments">
+                <a href="{{attachment.url}}" target="_blank" ng-repeat="attachment in person.attachments" class="attachment {{attachment.type}}" style="background-image: linear-gradient(to bottom, rgba(255,255,255,0.8) 0%,rgba(255,255,255,0.75) 100%), url('{{attachment.url}}');">{{attachment.name}}</a>
             </div>
         </div>
     </div>

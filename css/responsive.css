@@ -1,7 +1,7 @@
 @media (min-device-width: 1200px) {
     .info {
         max-width: 900px;
-        background-size: 900px;
+        /*background-size: 900px;*/
         background-position-y: 0px;
         margin-top: 0px;
         width: 100%;
@@ -91,10 +91,6 @@
 
     .navitems {
         padding-top: 0px;
-    }
-    
-    .info-bottom {
-        display: none;
     }
 
 }

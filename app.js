@@ -39,7 +39,7 @@ app.config(function($routeProvider) {
     $routeProvider
     .when("/", {
         templateUrl : "views/welcome.html",
-        controller: 'welcomeController'
+        controller: 'PeopleController'
     })
     .when("/:person", {
         templateUrl : "views/person.html",

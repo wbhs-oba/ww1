@@ -17,7 +17,7 @@ nav .menubutton {
 	padding: 6px;
 	font-size: 25px;
 	cursor: pointer;
-	/* left: 10px; */
+	position: absolute;
 }
 
 nav .menubutton.active {

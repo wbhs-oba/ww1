@@ -57,7 +57,8 @@
 }
 
 .attachments {
-	display: flex;
+    display: flex;
+    overflow-x: auto;
 }
 
 .attachments .attachment {

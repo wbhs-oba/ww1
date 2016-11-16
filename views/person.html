@@ -3,40 +3,40 @@
     <div class="info">
         <img class="profile" src="{{person.imgpath}}" onerror="this.src='img/faces/Unknown.png'">
         <div class="card">
-			<h1>{{person.fullname || '????'}}</h1>
+			<h1>{{person.fullname || 'Unknown'}}</h1>
             <div class="row">
                 <div class="col-sm-6 text-left">
                     <h4 id="dob">
                         <strong>DOB:</strong>
-                        {{person.DOB || '????'}}
+                        {{person.DOB || 'Unknown'}}
                     </h4>
                     <h4 id="sid">
                         <strong>Service ID:</strong>
-                        {{person.serviceID || '????'}}
+                        {{person.serviceID || 'Unknown'}}
                     </h4>
                     <h4 id="birthplace">
                         <strong>Place of Birth:</strong>
-                        {{person.birthPlace || '????'}}
+                        {{person.birthPlace || 'Unknown'}}
                     </h4>
                 </div>
                 <div class="col-sm-6 text-right text-left-mob">
                     <h4 id="dod">
                         <strong>DOD:</strong>
-                        {{person.DOD || '????'}}
+                        {{person.DOD || 'Unknown'}}
                     </h4>
                     <h4 id="occ">
                         <strong>Occupation:</strong>
-                        {{person.occupation || '????'}}
+                        {{person.occupation || 'Unknown'}}
                     </h4>
                     <h4 id="deathplace">
                         <strong>Place of Death:</strong>
-                        {{person.deathPlace || '????'}}
+                        {{person.deathPlace || 'Unknown'}}
                     </h4>
                 </div>
             </div>
             <h4 id="deathcause" class="text-center">
                 <strong>Cause of Death:</strong>
-                {{person.deathcause || '????'}}
+                {{person.deathcause || 'Unknown'}}
             </h4>
             <div id="bio">
                 <h3>Biography:</h3>

@@ -942,7 +942,18 @@ people = [{
         deathPlace: "Dardanelles, Gallipoli, Turkey.",
         deathcause: "Killed in Action",
         bio: "<p>N. Steadman was the son of Lieutenant-Colonel Thomas Herbert Steadman <i>(Territorial Force, 15th (North Auckland) Regiment)</i> and Edith Minnie Steadman of Whangarei. </p><p>He was a pupil at Whangarei High School during 1904 and 1905 but left in 1906 to enter King’s College in Auckland.</p><p>After leaving school he devoted his studies to engineering.</p><p>When war broke out he enlisted and left with the Main Body as a lieutenant in the Auckland Infantry. </p><p>He took part in the defence of the Suez Canal and the landing at Gallipoli and was afterwards killed on the 8th May 1915 in the attack on Krithia in the Dardanelles.</p>",
-        attachments: [
+        medal: [
+            {
+                "type": "1914-1915_Star",
+                "url": "img/icons/Medals/1914-1915_Star.png",
+            },
+			{
+                "type": "Victory_Medal_1914-1918",
+                "url": "img/icons/Medals/Victory_Medal_1914-1918.png",
+            }
+			]
+		
+		attachments: [
             {
                 "name": "Personal File Note",
                 "type": "image",

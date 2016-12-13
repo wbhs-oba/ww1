@@ -20,7 +20,7 @@ people = [{
             "british_war",
             "mercantile_marine_war",
             "victory_medal_1914-1918"
-        ]
+        ],
         attachments: [
             {
                 "name": "Example Photograph",
@@ -59,7 +59,7 @@ people = [{
             "british_war",
             "mercantile_marine_war",
             "victory_medal_1914-1918"
-        ]
+        ],
         attachments: [
             {
                 "name": "Example Photograph",
@@ -98,7 +98,7 @@ people = [{
             "british_war",
             "mercantile_marine_war",
             "victory_medal_1914-1918"
-        ]
+        ],
         attachments: [
             {
                 "name": "Example Photograph",
@@ -137,7 +137,7 @@ people = [{
             "british_war",
             "mercantile_marine_war",
             "victory_medal_1914-1918"
-        ]
+        ],
         attachments: [
             {
                 "name": "Example Photograph",
@@ -176,7 +176,7 @@ people = [{
             "british_war",
             "mercantile_marine_war",
             "victory_medal_1914-1918"
-        ]
+        ],
         attachments: [
             {
                 "name": "Example Photograph",
@@ -215,7 +215,7 @@ people = [{
             "british_war",
             "mercantile_marine_war",
             "victory_medal_1914-1918"
-        ]
+        ],
         attachments: [
             {
                 "name": "Example Photograph",
@@ -254,7 +254,7 @@ people = [{
             "british_war",
             "mercantile_marine_war",
             "victory_medal_1914-1918"
-        ]
+        ],
         attachments: [
             {
                 "name": "Example Photograph",
@@ -293,7 +293,7 @@ people = [{
             "british_war",
             "mercantile_marine_war",
             "victory_medal_1914-1918"
-        ]
+        ],
         attachments: [
             {
                 "name": "Example Photograph",
@@ -332,7 +332,7 @@ people = [{
             "british_war",
             "mercantile_marine_war",
             "victory_medal_1914-1918"
-        ]
+        ],
         attachments: [
             {
                 "name": "Example Photograph",
@@ -371,7 +371,7 @@ people = [{
             "british_war",
             "mercantile_marine_war",
             "victory_medal_1914-1918"
-        ]
+        ],
         attachments: [
             {
                 "name": "Example Photograph",
@@ -410,7 +410,7 @@ people = [{
             "british_war",
             "mercantile_marine_war",
             "victory_medal_1914-1918"
-        ]
+        ],
         attachments: [
             {
                 "name": "Example Photograph",
@@ -449,7 +449,7 @@ people = [{
             "british_war",
             "mercantile_marine_war",
             "victory_medal_1914-1918"
-        ]
+        ],
         attachments: [
             {
                 "name": "Example Photograph",
@@ -488,7 +488,7 @@ people = [{
             "british_war",
             "mercantile_marine_war",
             "victory_medal_1914-1918"
-        ]
+        ],
         attachments: [
             {
                 "name": "Example Photograph",
@@ -527,7 +527,7 @@ people = [{
             "british_war",
             "mercantile_marine_war",
             "victory_medal_1914-1918"
-        ]
+        ],
         attachments: [
             {
                 "name": "Example Photograph",
@@ -566,7 +566,7 @@ people = [{
             "british_war",
             "mercantile_marine_war",
             "victory_medal_1914-1918"
-        ]
+        ],
         attachments: [
             {
                 "name": "Example Photograph",
@@ -605,7 +605,7 @@ people = [{
             "british_war",
             "mercantile_marine_war",
             "victory_medal_1914-1918"
-        ]
+        ],
         attachments: [
             {
                 "name": "Example Photograph",
@@ -644,7 +644,7 @@ people = [{
             "british_war",
             "mercantile_marine_war",
             "victory_medal_1914-1918"
-        ]
+        ],
         attachments: [
             {
                 "name": "Example Photograph",
@@ -683,7 +683,7 @@ people = [{
             "british_war",
             "mercantile_marine_war",
             "victory_medal_1914-1918"
-        ]
+        ],
         attachments: [
             {
                 "name": "Example Photograph",
@@ -722,7 +722,7 @@ people = [{
             "british_war",
             "mercantile_marine_war",
             "victory_medal_1914-1918"
-        ]
+        ],
         attachments: [
             {
                 "name": "Example Photograph",
@@ -761,7 +761,7 @@ people = [{
             "british_war",
             "mercantile_marine_war",
             "victory_medal_1914-1918"
-        ]
+        ],
         attachments: [
             {
                 "name": "Example Photograph",
@@ -800,7 +800,7 @@ people = [{
             "british_war",
             "mercantile_marine_war",
             "victory_medal_1914-1918"
-        ]
+        ],
         attachments: [
             {
                 "name": "Example Photograph",
@@ -839,7 +839,7 @@ people = [{
             "british_war",
             "mercantile_marine_war",
             "victory_medal_1914-1918"
-        ]
+        ],
         attachments: [
             {
                 "name": "Example Photograph",
@@ -878,7 +878,7 @@ people = [{
             "british_war",
             "mercantile_marine_war",
             "victory_medal_1914-1918"
-        ]
+        ],
         attachments: [
             {
                 "name": "Example Photograph",
@@ -917,7 +917,7 @@ people = [{
             "british_war",
             "mercantile_marine_war",
             "victory_medal_1914-1918"
-        ]
+        ],
         attachments: [
             {
                 "name": "Example Photograph",
@@ -956,7 +956,7 @@ people = [{
             "british_war",
             "mercantile_marine_war",
             "victory_medal_1914-1918"
-        ]
+        ],
         attachments: [
             {
                 "name": "Example Photograph",
@@ -995,7 +995,7 @@ people = [{
             "british_war",
             "mercantile_marine_war",
             "victory_medal_1914-1918"
-        ]
+        ],
         attachments: [
             {
                 "name": "Example Photograph",
@@ -1034,7 +1034,7 @@ people = [{
             "british_war",
             "mercantile_marine_war",
             "victory_medal_1914-1918"
-        ]
+        ],
         attachments: [
             {
                 "name": "Example Photograph",
@@ -1073,7 +1073,7 @@ people = [{
             "british_war",
             "mercantile_marine_war",
             "victory_medal_1914-1918"
-        ]
+        ],
         attachments: [
             {
                 "name": "Example Photograph",
@@ -1112,7 +1112,7 @@ people = [{
             "british_war",
             "mercantile_marine_war",
             "victory_medal_1914-1918"
-        ]
+        ],
         attachments: [
             {
                 "name": "Example Photograph",
@@ -1151,7 +1151,7 @@ people = [{
             "british_war",
             "mercantile_marine_war",
             "victory_medal_1914-1918"
-        ]
+        ],
         	
 		attachments: [
             {
@@ -1209,7 +1209,7 @@ people = [{
             "british_war",
             "mercantile_marine_war",
             "victory_medal_1914-1918"
-        ]
+        ],
         attachments: [
             {
                 "name": "Example Photograph",
@@ -1248,7 +1248,7 @@ people = [{
             "british_war",
             "mercantile_marine_war",
             "victory_medal_1914-1918"
-        ]
+        ],
         attachments: [
             {
                 "name": "Example Photograph",
@@ -1287,7 +1287,7 @@ people = [{
             "british_war",
             "mercantile_marine_war",
             "victory_medal_1914-1918"
-        ]
+        ],
         attachments: [
             {
                 "name": "Example Photograph",
@@ -1326,7 +1326,7 @@ people = [{
             "british_war",
             "mercantile_marine_war",
             "victory_medal_1914-1918"
-        ]
+        ],
         attachments: [
             {
                 "name": "Example Photograph",

@@ -34,6 +34,7 @@
     position: relative;
     padding: 40px;
     /*padding-top: 20px;*/
+    padding-top: 0px;
     -webkit-box-shadow: 0 -10px 30px -20px rgba(0,0,0,0.5);
     box-shadow: 0 -10px 30px -20px rgba(0,0,0,0.5);
 }

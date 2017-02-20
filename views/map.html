@@ -8,17 +8,96 @@
 <div id="map"></div>
 <script>
 	function initMap() {
-		var uluru = {lat: -25.363, lng: 131.044};
-		var map = new google.maps.Map(document.getElementById('map'), {
-			zoom: 4,
-			center: uluru
-		});
-		var marker = new google.maps.Marker({
-			position: uluru,
-			map: map
-		});
+		var markers = [
+			['Tree 1', 174.317186996341, -35.7160248361356],
+			['Tree 2', 174.317369051278, -35.7160847239607],
+			['Tree 3', 174.317170567811, -35.7160994236927],
+			['Tree 4', 174.317201077938, -35.7161791833025],
+			['Tree 5', 174.317065626383, -35.7161500560822],
+			['Tree 6', 174.317081384361, -35.7163122972856],
+			['Tree 7', 174.316996894777, -35.716374362625],
+			['Tree 8', 174.3169516325, -35.7163087584709],
+			['Tree 9', 174.316918440163, -35.7163215526463],
+			['Tree 10', 174.316978119314, -35.716430166946],
+			['Tree 11', 174.316866472363, -35.7164200949495],
+			['Tree 12', 174.316907376051, -35.71655511404],
+			['Tree 13', 174.316835962236, -35.7165268036045],
+			['Tree 14', 174.31678801775, -35.7165638249412],
+			['Tree 15', 174.31682087481, -35.7166536560543],
+			['Tree 16', 174.31674040854, -35.7166694445426],
+			['Tree 17', 174.316802769899, -35.7167671697707],
+			['Tree 18', 174.317252710462, -35.7160123141302],
+			['Tree 19', 174.317325800657, -35.7160833628743],
+			['Tree 20', 174.3173757568, -35.7159807368902],
+			['Tree 21', 174.317461252213, -35.7159461652425],
+			['Tree 22', 174.317556805909, -35.7159360931848],
+			['Tree 23', 174.317673482001, -35.7158802885179],
+			['Tree 24', 174.317706339061, -35.7158351003199],
+			['Tree 25', 174.317809939384, -35.7157635069177],
+			['Tree 26', 174.317828044295, -35.7157270296461],
+			['Tree 27', 174.317849837244, -35.7156538028343]
+		];
+
+		var map;
+		var bounds = new google.maps.LatLngBounds();
+		var mapOptions = {
+			mapTypeId: 'roadmap',
+			center: {lat: -35.716169, lng: 174.317046},
+			zoom: 18,
+		};
+
+		map = new google.maps.Map(document.getElementById("map"), mapOptions);
+
+		// Loop through our array of markers & place each one on the map
+
+
+		for( i = 0; i < markers.length; i++ ) {
+			var position = new google.maps.LatLng(markers[i][2], markers[i][1]);
+			bounds.extend(position);
+			marker = new google.maps.Marker({
+				position: position,
+				map: map,
+				title: markers[i][0]
+			});
+
+			// Automatically center the map fitting all markers on the screen
+			map.fitBounds(bounds);
+
+		}
+
+		// Do Geolocation
+		// Try HTML5 geolocation.
+		if (navigator.geolocation) {
+		  navigator.geolocation.getCurrentPosition(function(position) {
+			var geopos = {
+			  lat: position.coords.latitude,
+			  lng: position.coords.longitude
+			};
+			for (var i = markers.length - 1; i >= 0; i--) {
+				var markerpos = new google.maps.LatLng(markers[i][2], position.coords.longitude);
+				var geocoord = new google.maps.LatLng(position.coords.latitude, markers[i][1]);
+				console.log(geocoord);
+				console.log(markerpos);
+				console.log(google.maps.geometry.spherical.computeDistanceBetween(geocoord, markerpos));
+
+			}
+
+
+		  }, function() {
+			handleLocationError(true, infoWindow, map.getCenter());
+		  });
+		} else {
+		  // Browser doesn't support Geolocation
+		  handleLocationError(false, infoWindow, map.getCenter());
+		}
+	}
+
+	function handleLocationError(browserHasGeolocation, infoWindow, geopos) {
+		console.log(browserHasGeolocation ?
+			'Error: The Geolocation service failed.' :
+			'Error: Your browser doesn\'t support geolocation.');
 	}
 </script>
 <script async defer
-src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
+	src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBr_S2N4ZGDIaclC2mLOL--RX0RUrVftX8&callback=initMap&libraries=geometry">
 </script>

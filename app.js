@@ -51,6 +51,10 @@ app.config(function($routeProvider) {
         templateUrl : "views/welcome.html",
         controller: 'WelcomeController'
     })
+    .when("/map", {
+        templateUrl : "views/map.html",
+        controller: 'WelcomeController'
+    })
     .when("/tag/:person", {
         templateUrl : "views/person.html",
         controller: 'PeopleController'

@@ -45,3 +45,34 @@ nav .title img {
 .navpadding {
 	padding-top: 60px;
 }
+
+/*Map Button*/
+.map {
+    float: right;
+    display: inline-block;
+    position: absolute;
+    z-index: 100000;
+    top: 0;
+    right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 100%;
+    width: 100px;
+    line-height: 1.5;
+    text-align: center;
+    color: white !important;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+.map:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.map a {
+    color: white;
+    text-decoration: none !important;
+}

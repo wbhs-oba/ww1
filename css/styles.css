@@ -18,7 +18,7 @@
 }
 
 body {
-    background-image: url(../img/sandbags-yellow.jpg);
+    background-image: url(../img/sandbags-yellow-o.jpg);
     background-attachment: fixed;
     background-position: left;
     background-size: contain;
@@ -47,7 +47,7 @@ body {
 
 
 .main .bg {
-    background-image: url(../img/gallipoli-web.jpg);
+    background-image: url(../img/gallipoli-web-o.jpg);
     background-attachment: scroll;
     position: absolute;
     left: 0;

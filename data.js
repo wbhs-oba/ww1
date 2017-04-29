@@ -4,7 +4,7 @@
 people = [{
         name: "F.C. Baker",
         fullname: "Francis Charles Baker",
-        imgpath: "img/faces/44246.jpg",
+        imgpath: "img/faces/optim/44246.jpg",
         id: "44246",
         DOB: "",
         serviceID: "44246",
@@ -43,7 +43,7 @@ people = [{
     }, {
         name: "F.L. Beasley",
         fullname: "Frederick Leopold Beasley",
-        imgpath: "img/faces/12-3249.jpg",
+        imgpath: "img/faces/optim/12-3249.jpg",
         id: "12-3249",
         DOB: "17 September 1894",
         serviceID: "12/3249",
@@ -82,7 +82,7 @@ people = [{
     }, {
         name: "R.P. Bedlington",
         fullname: " ROY P. BEDLINGTON.",
-        imgpath: "img/faces/4-1146.jpg",
+        imgpath: "img/faces/optim/4-1146.jpg",
         id: "4-1146",
         DOB: "",
         serviceID: "4/1146 & 12/1146",
@@ -121,7 +121,7 @@ people = [{
     }, {
         name: "B.B. Bindon",
         fullname: "Bertram Bernard Bindon",
-        imgpath: "img/faces/71696.jpg",
+        imgpath: "img/faces/optim/71696.jpg",
         id: "71696",
         DOB: "",
         serviceID: "71696",
@@ -160,7 +160,7 @@ people = [{
     }, {
         name: "A.N. Brown",
         fullname: "Arthur Noel Brown",
-        imgpath: "img/faces/26784.jpg",
+        imgpath: "img/faces/optim/26784.jpg",
         id: "26784",
         DOB: "21 December 1896",
         serviceID: "26784",
@@ -199,7 +199,7 @@ people = [{
     }, {
         name: "H.J. Cameron",
         fullname: "Harry James Cameron",
-        imgpath: "img/faces/1-9.jpg",
+        imgpath: "img/faces/optim/1-9.jpg",
         id: "1-9",
         DOB: "10 July 1890",
         serviceID: "1/9",
@@ -238,7 +238,7 @@ people = [{
     }, {
         name: "T. Cameron",
         fullname: "Tui Crawford Cameron",
-        imgpath: "img/faces/23342.jpg",
+        imgpath: "img/faces/optim/23342.jpg",
         id: "23342",
         DOB: "",
         serviceID: "23342",
@@ -277,7 +277,7 @@ people = [{
     }, {
         name: "R. Carter",
         fullname: "Richard Carter",
-        imgpath: "img/faces/13561.jpg",
+        imgpath: "img/faces/optim/13561.jpg",
         id: "13561",
         DOB: "",
         serviceID: "13561",
@@ -316,7 +316,7 @@ people = [{
     }, {
         name: "C.O.A. Cowan",
         fullname: "Charles Armitage O'Neill Cowan",
-        imgpath: "img/faces/ID.jpg",
+        imgpath: "img/faces/optim/ID.jpg",
         id: "12-69",
         DOB: "",
         serviceID: "0-6",
@@ -355,7 +355,7 @@ people = [{
     }, {
         name: "W.L. Clapson",
         fullname: "Walter Leonard Clapson",
-        imgpath: "img/faces/24502.jpg",
+        imgpath: "img/faces/optim/24502.jpg",
         id: "24502",
         DOB: "",
         serviceID: "24502",
@@ -394,7 +394,7 @@ people = [{
     }, {
         name: "B.C. Drake",
         fullname: "Bernard Charles Drake",
-        imgpath: "img/faces/2-36.jpg",
+        imgpath: "img/faces/optim/2-36.jpg",
         id: "2-36",
         DOB: "",
         serviceID: "2/36",
@@ -433,7 +433,7 @@ people = [{
     }, {
         name: "J.C. Galbraith",
         fullname: "James Chris Galbraith",
-        imgpath: "img/faces/44637.jpg",
+        imgpath: "img/faces/optim/44637.jpg",
         id: "44637",
         DOB: "",
         serviceID: "44637",
@@ -472,7 +472,7 @@ people = [{
     }, {
         name: "C.H. Goodson",
         fullname: "",
-        imgpath: "img/faces/50545.jpg",
+        imgpath: "img/faces/optim/50545.jpg",
         id: "50545",
         DOB: "",
         serviceID: "50545",
@@ -511,7 +511,7 @@ people = [{
     }, {
         name: "C.E. Gribble",
         fullname: "Charles Ethelbert Gribble",
-        imgpath: "img/faces/0-0.jpg",
+        imgpath: "img/faces/optim/0-0.jpg",
         id: "0-0",
         DOB: "",
         serviceID: "0-0",
@@ -550,7 +550,7 @@ people = [{
     }, {
         name: "H.F. Griffin",
         fullname: "Horace Fennel Griffin",
-        imgpath: "img/faces/24-2209.jpg",
+        imgpath: "img/faces/optim/24-2209.jpg",
         id: "24-2209",
         DOB: "",
         serviceID: "24/2209",
@@ -589,7 +589,7 @@ people = [{
     }, {
         name: "C.H. Hill",
         fullname: "Claude Henry Hill",
-        imgpath: "img/faces/16467.jpg",
+        imgpath: "img/faces/optim/16467.jpg",
         id: "16467",
         DOB: "",
         serviceID: "16467",
@@ -628,7 +628,7 @@ people = [{
     }, {
         name: "A.D. Jack",
         fullname: "Alexander Douglas Jack",
-        imgpath: "img/faces/12-2339.jpg",
+        imgpath: "img/faces/optim/12-2339.jpg",
         id: "12-2339",
         DOB: "",
         serviceID: "12/2339",
@@ -667,7 +667,7 @@ people = [{
     }, {
         name: "D.L. Jack",
         fullname: "Donald Leslie Jack",
-        imgpath: "img/faces/23-464.jpg",
+        imgpath: "img/faces/optim/23-464.jpg",
         id: "23-464",
         DOB: " 1891",
         serviceID: "23/464",
@@ -706,7 +706,7 @@ people = [{
     }, {
         name: "O.P. Johnston",
         fullname: "Olaf Percival Johnson",
-        imgpath: "img/faces/13-152.jpg",
+        imgpath: "img/faces/optim/13-152.jpg",
         id: "13-152",
         DOB: "",
         serviceID: "13/152",
@@ -745,7 +745,7 @@ people = [{
     }, {
         name: "M.A. McDonald",
         fullname: "Murdoch Alexander McDonald",
-        imgpath: "img/faces/33578.jpg",
+        imgpath: "img/faces/optim/33578.jpg",
         id: "33578",
         DOB: "1 September 1918",
         serviceID: "33578",
@@ -784,7 +784,7 @@ people = [{
     }, {
         name: "F.J. McKenzie",
         fullname: "Frank J. McKenzie",
-        imgpath: "img/faces/24038.jpg",
+        imgpath: "img/faces/optim/24038.jpg",
         id: "24038",
         DOB: "",
         serviceID: "24038",
@@ -823,7 +823,7 @@ people = [{
     }, {
         name: "R.W. McKenzie",
         fullname: "Rupert Whitworth McKenzie",
-        imgpath: "img/faces/16428.jpg",
+        imgpath: "img/faces/optim/16428.jpg",
         id: "16428",
         DOB: "",
         serviceID: "16428",
@@ -862,7 +862,7 @@ people = [{
     }, {
         name: "A. McLeod",
         fullname: "ALEXANDER Donald McLEOD",
-        imgpath: "img/faces/13-209.jpg",
+        imgpath: "img/faces/optim/13-209.jpg",
         id: "13-209",
         DOB: " 24 Years Old",
         serviceID: "13/209",
@@ -901,7 +901,7 @@ people = [{
     }, {
         name: "J.D. McLeod",
         fullname: "John Donald MacLeod",
-        imgpath: "img/faces/6-3231.jpg",
+        imgpath: "img/faces/optim/6-3231.jpg",
         id: "6-3231",
         DOB: "18 September 1891",
         serviceID: "6/3231",
@@ -940,7 +940,7 @@ people = [{
     }, {
         name: "C.J. Marshall",
         fullname: "Cecil James Cunningham Marshall",
-        imgpath: "img/faces/89710.jpg",
+        imgpath: "img/faces/optim/89710.jpg",
         id: "89710",
         DOB: " 30 Years Old",
         serviceID: "89710",
@@ -979,7 +979,7 @@ people = [{
     }, {
         name: "C.M. Nightingale",
         fullname: "Clifford Monteith Nightingale",
-        imgpath: "img/faces/38574.jpg",
+        imgpath: "img/faces/optim/38574.jpg",
         id: "38574",
         DOB: "1896",
         serviceID: "38574",
@@ -1018,7 +1018,7 @@ people = [{
     }, {
         name: "A.H. Pearce ",
         fullname: "Arthur Hambley Pearce",
-        imgpath: "img/faces/10-2500.jpg",
+        imgpath: "img/faces/optim/10-2500.jpg",
         id: "10-2500",
         DOB: "",
         serviceID: "10/2500",
@@ -1057,7 +1057,7 @@ people = [{
     }, {
         name: "G. Potter",
         fullname: "GEOFFREY POTTER",
-        imgpath: "img/faces/26-892.jpg",
+        imgpath: "img/faces/optim/26-892.jpg",
         id: "26-892",
         DOB: "",
         serviceID: "26/892",
@@ -1096,7 +1096,7 @@ people = [{
     }, {
         name: "H.L. Rouse",
         fullname: "Henry Lee Rouse",
-        imgpath: "img/faces/14327.jpg",
+        imgpath: "img/faces/optim/14327.jpg",
         id: "14327",
         DOB: "",
         serviceID: "14327",
@@ -1135,7 +1135,7 @@ people = [{
     }, {
         name: "N. Steadman",
 		fullname: "Noel Steadman",
-        imgpath: "img/faces/12-4.jpg",
+        imgpath: "img/faces/optim/12-4.jpg",
         id: "12-4",
         DOB: "26/12/1890",
         serviceID: "12/4",
@@ -1193,7 +1193,7 @@ people = [{
     }, {
         name: "T.H. Storey",
         fullname: "Thomas Henry Storey",
-        imgpath: "img/faces/79291.jpg",
+        imgpath: "img/faces/optim/79291.jpg",
         id: "79291",
         DOB: "",
         serviceID: "79291",
@@ -1232,7 +1232,7 @@ people = [{
     }, {
         name: "A.M. White",
         fullname: "Alexander McGregor White",
-        imgpath: "img/faces/56388.jpg",
+        imgpath: "img/faces/optim/56388.jpg",
         id: "56388",
         DOB: " Age 25",
         serviceID: "56388",
@@ -1271,7 +1271,7 @@ people = [{
     }, {
         name: "H.A. Wilkinson",
         fullname: "Harold Aicken Wilkinson",
-        imgpath: "img/faces/6-3508.jpg",
+        imgpath: "img/faces/optim/6-3508.jpg",
         id: "6-3508",
         DOB: " 23 Years",
         serviceID: "6/3508",
@@ -1310,7 +1310,7 @@ people = [{
     }, {
         name: "F.R. Wooster",
         fullname: "Frank Rupert Wooster",
-        imgpath: "img/faces/18883.jpg",
+        imgpath: "img/faces/optim/18883.jpg",
         id: "18883",
         DOB: "",
         serviceID: "18883",

@@ -1,6 +1,6 @@
 // Define the module
 var app = angular.module('memorialapp', ['ngRoute']).
-    config(['$locationProvider']. function($locationProvider) {
+    config(['$locationProvider'], function($locationProvider) {
         $locationProvider.html5Mode({
             enabled: true,
             requireBase: false

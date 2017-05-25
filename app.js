@@ -1,11 +1,5 @@
 // Define the module
-var app = angular.module('memorialapp', ['ngRoute']).
-    config(['$locationProvider'], function($locationProvider) {
-        $locationProvider.html5Mode({
-            enabled: true,
-            requireBase: false
-        });
-    });
+var app = angular.module('memorialapp', ['ngRoute']);
 
 // Define the 'PeopleListController' controller on the MemorialApp module
 app.controller('PeopleController', function($scope, $routeParams, $location, $sce) {
@@ -51,7 +45,7 @@ app.controller('RandomController', function($location) {
     $location.path("/tag/" + randPerson.id);
 });
 
-app.config(function($routeProvider) {
+app.config(function($routeProvider, $locationProvider) {
     $routeProvider
     .when("/", {
         templateUrl : "views/welcome.html",
@@ -69,4 +63,5 @@ app.config(function($routeProvider) {
         templateUrl : "views/person.html",
         controller: 'RandomController'
     })
+    $locationProvider.html5Mode(true);
 });

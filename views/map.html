@@ -67,6 +67,7 @@
 
 		// Do Geolocation
 		// Try HTML5 geolocation.
+		var nearestTrees = [];
 		if (navigator.geolocation) {
 		  navigator.geolocation.getCurrentPosition(function(position) {
 			var geopos = {
@@ -78,7 +79,7 @@
 				var geocoord = new google.maps.LatLng(position.coords.latitude, markers[i][1]);
 				console.log(geocoord);
 				console.log(markerpos);
-				console.log(google.maps.geometry.spherical.computeDistanceBetween(geocoord, markerpos));
+				nearestTrees.push([google.maps.geometry.spherical.computeDistanceBetween(geocoord, markerpos)]);
 
 			}
 

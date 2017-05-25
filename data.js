@@ -4,6 +4,7 @@
 people = [{
         name: "F.C. Baker",
         fullname: "Francis Charles Baker",
+        enabled: false,
         imgpath: "img/faces/optim/44246.jpg",
         id: "44246",
         DOB: "",
@@ -43,6 +44,7 @@ people = [{
     }, {
         name: "F.L. Beasley",
         fullname: "Frederick Leopold Beasley",
+        enabled: false,
         imgpath: "img/faces/optim/12-3249.jpg",
         id: "12-3249",
         DOB: "17 September 1894",
@@ -82,6 +84,7 @@ people = [{
     }, {
         name: "R.P. Bedlington",
         fullname: " ROY P. BEDLINGTON.",
+        enabled: false,
         imgpath: "img/faces/optim/4-1146.jpg",
         id: "4-1146",
         DOB: "",
@@ -121,6 +124,7 @@ people = [{
     }, {
         name: "B.B. Bindon",
         fullname: "Bertram Bernard Bindon",
+        enabled: false,
         imgpath: "img/faces/optim/71696.jpg",
         id: "71696",
         DOB: "",
@@ -160,6 +164,7 @@ people = [{
     }, {
         name: "A.N. Brown",
         fullname: "Arthur Noel Brown",
+        enabled: false,
         imgpath: "img/faces/optim/26784.jpg",
         id: "26784",
         DOB: "21 December 1896",
@@ -199,6 +204,7 @@ people = [{
     }, {
         name: "H.J. Cameron",
         fullname: "Harry James Cameron",
+        enabled: false,
         imgpath: "img/faces/optim/1-9.jpg",
         id: "1-9",
         DOB: "10 July 1890",
@@ -238,6 +244,7 @@ people = [{
     }, {
         name: "T. Cameron",
         fullname: "Tui Crawford Cameron",
+        enabled: false,
         imgpath: "img/faces/optim/23342.jpg",
         id: "23342",
         DOB: "",
@@ -277,6 +284,7 @@ people = [{
     }, {
         name: "R. Carter",
         fullname: "Richard Carter",
+        enabled: false,
         imgpath: "img/faces/optim/13561.jpg",
         id: "13561",
         DOB: "",
@@ -316,6 +324,7 @@ people = [{
     }, {
         name: "C.O.A. Cowan",
         fullname: "Charles Armitage O'Neill Cowan",
+        enabled: false,
         imgpath: "img/faces/optim/ID.jpg",
         id: "12-69",
         DOB: "",
@@ -355,6 +364,7 @@ people = [{
     }, {
         name: "W.L. Clapson",
         fullname: "Walter Leonard Clapson",
+        enabled: false,
         imgpath: "img/faces/optim/24502.jpg",
         id: "24502",
         DOB: "",
@@ -394,6 +404,7 @@ people = [{
     }, {
         name: "B.C. Drake",
         fullname: "Bernard Charles Drake",
+        enabled: false,
         imgpath: "img/faces/optim/2-36.jpg",
         id: "2-36",
         DOB: "",
@@ -433,6 +444,7 @@ people = [{
     }, {
         name: "J.C. Galbraith",
         fullname: "James Chris Galbraith",
+        enabled: false,
         imgpath: "img/faces/optim/44637.jpg",
         id: "44637",
         DOB: "",
@@ -472,6 +484,7 @@ people = [{
     }, {
         name: "C.H. Goodson",
         fullname: "",
+        enabled: false,
         imgpath: "img/faces/optim/50545.jpg",
         id: "50545",
         DOB: "",
@@ -511,6 +524,7 @@ people = [{
     }, {
         name: "C.E. Gribble",
         fullname: "Charles Ethelbert Gribble",
+        enabled: false,
         imgpath: "img/faces/optim/0-0.jpg",
         id: "0-0",
         DOB: "",
@@ -550,6 +564,7 @@ people = [{
     }, {
         name: "H.F. Griffin",
         fullname: "Horace Fennel Griffin",
+        enabled: false,
         imgpath: "img/faces/optim/24-2209.jpg",
         id: "24-2209",
         DOB: "",
@@ -589,6 +604,7 @@ people = [{
     }, {
         name: "C.H. Hill",
         fullname: "Claude Henry Hill",
+        enabled: false,
         imgpath: "img/faces/optim/16467.jpg",
         id: "16467",
         DOB: "",
@@ -628,6 +644,7 @@ people = [{
     }, {
         name: "A.D. Jack",
         fullname: "Alexander Douglas Jack",
+        enabled: false,
         imgpath: "img/faces/optim/12-2339.jpg",
         id: "12-2339",
         DOB: "",
@@ -667,6 +684,7 @@ people = [{
     }, {
         name: "D.L. Jack",
         fullname: "Donald Leslie Jack",
+        enabled: false,
         imgpath: "img/faces/optim/23-464.jpg",
         id: "23-464",
         DOB: " 1891",
@@ -706,6 +724,7 @@ people = [{
     }, {
         name: "O.P. Johnston",
         fullname: "Olaf Percival Johnson",
+        enabled: false,
         imgpath: "img/faces/optim/13-152.jpg",
         id: "13-152",
         DOB: "",
@@ -745,6 +764,7 @@ people = [{
     }, {
         name: "M.A. McDonald",
         fullname: "Murdoch Alexander McDonald",
+        enabled: false,
         imgpath: "img/faces/optim/33578.jpg",
         id: "33578",
         DOB: "1 September 1918",
@@ -784,6 +804,7 @@ people = [{
     }, {
         name: "F.J. McKenzie",
         fullname: "Frank J. McKenzie",
+        enabled: false,
         imgpath: "img/faces/optim/24038.jpg",
         id: "24038",
         DOB: "",
@@ -823,6 +844,7 @@ people = [{
     }, {
         name: "R.W. McKenzie",
         fullname: "Rupert Whitworth McKenzie",
+        enabled: false,
         imgpath: "img/faces/optim/16428.jpg",
         id: "16428",
         DOB: "",
@@ -862,6 +884,7 @@ people = [{
     }, {
         name: "A. McLeod",
         fullname: "ALEXANDER Donald McLEOD",
+        enabled: false,
         imgpath: "img/faces/optim/13-209.jpg",
         id: "13-209",
         DOB: " 24 Years Old",
@@ -901,6 +924,7 @@ people = [{
     }, {
         name: "J.D. McLeod",
         fullname: "John Donald MacLeod",
+        enabled: false,
         imgpath: "img/faces/optim/6-3231.jpg",
         id: "6-3231",
         DOB: "18 September 1891",
@@ -940,6 +964,7 @@ people = [{
     }, {
         name: "C.J. Marshall",
         fullname: "Cecil James Cunningham Marshall",
+        enabled: false,
         imgpath: "img/faces/optim/89710.jpg",
         id: "89710",
         DOB: " 30 Years Old",
@@ -979,6 +1004,7 @@ people = [{
     }, {
         name: "C.M. Nightingale",
         fullname: "Clifford Monteith Nightingale",
+        enabled: false,
         imgpath: "img/faces/optim/38574.jpg",
         id: "38574",
         DOB: "1896",
@@ -1018,6 +1044,7 @@ people = [{
     }, {
         name: "A.H. Pearce ",
         fullname: "Arthur Hambley Pearce",
+        enabled: false,
         imgpath: "img/faces/optim/10-2500.jpg",
         id: "10-2500",
         DOB: "",
@@ -1057,6 +1084,7 @@ people = [{
     }, {
         name: "G. Potter",
         fullname: "GEOFFREY POTTER",
+        enabled: false,
         imgpath: "img/faces/optim/26-892.jpg",
         id: "26-892",
         DOB: "",
@@ -1096,6 +1124,7 @@ people = [{
     }, {
         name: "H.L. Rouse",
         fullname: "Henry Lee Rouse",
+        enabled: true,
         imgpath: "img/faces/optim/14327.jpg",
         id: "14327",
         DOB: "",
@@ -1135,6 +1164,7 @@ people = [{
     }, {
         name: "N. Steadman",
 		fullname: "Noel Steadman",
+        enabled: true,
         imgpath: "img/faces/optim/12-4.jpg",
         id: "12-4",
         DOB: "26/12/1890",
@@ -1193,6 +1223,7 @@ people = [{
     }, {
         name: "T.H. Storey",
         fullname: "Thomas Henry Storey",
+        enabled: false,
         imgpath: "img/faces/optim/79291.jpg",
         id: "79291",
         DOB: "",
@@ -1232,6 +1263,7 @@ people = [{
     }, {
         name: "A.M. White",
         fullname: "Alexander McGregor White",
+        enabled: false,
         imgpath: "img/faces/optim/56388.jpg",
         id: "56388",
         DOB: " Age 25",
@@ -1271,6 +1303,7 @@ people = [{
     }, {
         name: "H.A. Wilkinson",
         fullname: "Harold Aicken Wilkinson",
+        enabled: false,
         imgpath: "img/faces/optim/6-3508.jpg",
         id: "6-3508",
         DOB: " 23 Years",
@@ -1310,6 +1343,7 @@ people = [{
     }, {
         name: "F.R. Wooster",
         fullname: "Frank Rupert Wooster",
+        enabled: false,
         imgpath: "img/faces/optim/18883.jpg",
         id: "18883",
         DOB: "",

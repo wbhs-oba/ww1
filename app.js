@@ -63,5 +63,8 @@ app.config(function($routeProvider, $locationProvider) {
         templateUrl : "views/person.html",
         controller: 'RandomController'
     })
-    $locationProvider.html5Mode(true);
+    $locationProvider.html5Mode({
+        enabled: true,
+        requireBase: false
+    });
 });
